@@ -20,6 +20,11 @@ public class Employee {
        return salary;
     }
 
+
+    @Override
+    public String toString() {
+        return "E: " + salary;
+    }
 }
 
 
